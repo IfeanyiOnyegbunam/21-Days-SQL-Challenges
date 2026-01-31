@@ -250,7 +250,9 @@ This challenge transformed SQL from something unfamiliar into a powerful analyti
 	•	LinkedIn: 
 https://linkedin.com/in/ifeanyi-nwamaka
 
-	•	GitHub:      https://github.com/IfeanyiOnyegbunam
+	•	GitHub:      
+	
+	https://github.com/IfeanyiOnyegbunam
 
 
 ⭐ If you found this repository helpful, feel free to star it.
