@@ -46,35 +46,9 @@ Throughout the challenge, I used:
 	•	Regular expressions (REGEXP)
 	•	Data cleaning & validation logic
 	•	Business rule modeling
+	
+	These solutions focus on accuracy, readability, and real-world relevance, not shortcuts.
 
-
-## 📂 Repository Structure
-
-21-days-sql-challenge/
-│
-├── Day01_Borrower_Books.sql
-├── Day02_Product_Pricing.sql
-├── Day03_Loan_Repayment.sql
-├── Day04_Text_Filtering.sql
-├── Day05_Department_Salary.sql
-├── Day06_Lowest_Price_Rating.sql
-├── Day07_Second_Recent_Order.sql
-├── Day08_Daily_Active_Users.sql
-├── Day09_Confirmation_Rate.sql
-├── Day10_Immediate_Delivery.sql
-├── Day11_Employee_Manager.sql
-├── Day12_Manager_Reports.sql
-├── Day13_First_Year_Sales.sql
-├── Day14_Monthly_Transactions.sql
-├── Day15_Process_Time.sql
-├── Day16_Remove_Duplicates.sql
-├── Day17_Bus_Weight_Limit.sql
-├── Day18_Unique_Number.sql
-├── Day19_Most_Friends.sql
-├── Day20_Email_Validation.sql
-├── Day21_Player_Retention.sql
-│
-└── README.md
 
 ## Each SQL file contains:
 	•	the business problem
@@ -85,7 +59,7 @@ Throughout the challenge, I used:
 ## 📘 Daily Problem Summaries
 
 
-**Day 1 — Borrower Book Analysis**
+**[Day 01 – Borrower Books](SQL_Files/Day01_Borrower_Books.sql)Analysis**
 
 Used joins and aggregation to display borrowers and a comma-separated list of books borrowed.
 
@@ -93,7 +67,7 @@ Concepts:
 JOIN · GROUP_CONCAT · GROUP BY · ORDER BY
 
 
-**Day 2 — Product Price Categorization**
+**[Day 02 – Product Pricing](SQL_Files/Day02_Product_Pricing.sql)**
 
 Categorized products into price ranges using CASE logic and counted distribution.
 
@@ -101,7 +75,7 @@ Concepts:
 CASE · COUNT · GROUP BY
 
 
-**Day 3 — Loan Repayment Risk Flags**
+**[Day 03 – Loan Repayment Flags](SQL_Files/Day03_Loan_Repayment.sql)**
 
 Created repayment and on-time payment indicators using aggregation and date logic.
 
@@ -109,7 +83,7 @@ Concepts:
 LEFT JOIN · SUM · CASE · MAX · Risk flags
 
 
-**Day 4 — Review Sentiment Filtering**
+**[Day 04 – Text Filtering](SQL_Files/Day04_Text_Filtering.sql)**
 
 Identified positive reviews while excluding misleading phrases.
 
@@ -117,7 +91,7 @@ Concepts:
 LIKE · NOT LIKE · LOWER · Text filtering
 
 
-**Day 5 — Department Salary Analysis**
+**[Day 05 – Department Salary Analysis](SQL_Files/Day05_Department_Salary.sql)**
 
 Calculated department average salaries and filtered using HAVING.
 
@@ -125,7 +99,7 @@ Concepts:
 AVG · HAVING · JOIN · Aggregation
 
 
-**Day 6 — Lowest Price with Rating Condition**
+**[Day 06 – Lowest Price by Rating](SQL_Files/Day06_Lowest_Price_Rating.sql)**
 
 Found lowest priced products only when rating ≥ 4 and returned 0 when none qualified.
 
@@ -133,7 +107,7 @@ Concepts:
 CASE inside MIN · COALESCE · LEFT JOIN
 
 
-**Day 7 — Second Most Recent Order**
+**[Day 07 – Second Most Recent Order](SQL_Files/Day07_Second_Recent_Order.sql)**
 
 Used window functions and CTEs to handle ranking logic per customer.
 
@@ -141,7 +115,7 @@ Concepts:
 ROW_NUMBER · COUNT OVER · CTE
 
 
-**Day 8 — Daily Active Users**
+**[Day 08 – Daily Active Users](SQL_Files/Day08_Daily_Active_Users.sql)**
 
 Calculated unique active users per day over a 30-day period.
 
@@ -149,7 +123,7 @@ Concepts:
 COUNT DISTINCT · Date filtering
 
 
-**Day 9 — Confirmation Rate** 
+**[Day 09 – Confirmation Rate](SQL_Files/Day09_Confirmation_Rate.sql)** 
 
 Computed confirmation percentages using conditional aggregation.
 
@@ -157,7 +131,7 @@ Concepts:
 CASE · AVG · COALESCE
 
 
-**Day 10 — Immediate Delivery Percentage**
+**[Day 10 – Immediate Delivery Percentage](SQL_Files/Day10_Immediate_Delivery.sql)**
 
 Analyzed customer behavior using subqueries and Boolean aggregation.
 
@@ -165,7 +139,7 @@ Concepts:
 Subquery · MIN · AVG(Boolean)
 
 
-**Day 11 — Employees with Missing Managers**
+**[Day 11 – Employees Without Managers](SQL_Files/Day11_Employee_Manager.sql)**
 
 Identified employees whose managers had left the company.
 
@@ -173,7 +147,7 @@ Concepts:
 NOT IN · Subqueries
 
 
-**Day 12 — Managers with ≥ 5 Reports**
+**[Day 12 – Managers With 5+ Reports](SQL_Files/Day12_Manager_Reports.sql)**
 
 Used CTE + grouping to identify qualified managers.
 
@@ -181,7 +155,7 @@ Concepts:
 CTE · GROUP BY · JOIN
 
 
-**Day 13 — First-Year Product Sales**
+**[Day 13 – First Year Product Sales](SQL_Files/Day13_First_Year_Sales.sql)**
 
 Returned only sales from each product’s first year.
 
@@ -189,7 +163,7 @@ Concepts:
 MIN · JOIN on multiple columns
 
 
-**Day 14 — Monthly Transactions Report**
+**[Day 14 – Monthly Transactions](SQL_Files/Day14_Monthly_Transactions.sql)**
 
 Calculated transaction volume and approved metrics.
 
@@ -197,7 +171,7 @@ Concepts:
 Conditional aggregation · CASE · DATE_FORMAT
 
 
-**Day 15 — Machine Processing Time**
+**[Day 15 – Average Processing Time](SQL_Files/Day15_Process_Time.sql)**
 
 Computed average processing time using timestamp differences.
 
@@ -205,7 +179,7 @@ Concepts:
 CTE · MAX/MIN · AVG
 
 
-**Day 16 — Remove Duplicate Emails**
+**[Day 16 – Remove Duplicate Emails](SQL_Files/Day16_Remove_Duplicates.sql)**
 
 Deleted duplicates while retaining smallest ID.
 
@@ -213,7 +187,7 @@ Concepts:
 GROUP BY · DELETE · CTE
 
 
-**Day 17 — Bus Weight Capacity**
+**[Day 17 – Bus Weight Limit](SQL_Files/Day17_Bus_Weight_Limit.sql)**
 
 Identified the last person who could board without exceeding capacity.
 
@@ -221,7 +195,7 @@ Concepts:
 Running totals · Window functions
 
 
-**Day 18 — Largest Unique Number**
+**[Day 18 – Largest Unique Number](SQL_Files/Day18_Unique_Number.sql)**
 
 Found the largest number appearing only once.
 
@@ -229,7 +203,7 @@ Concepts:
 HAVING COUNT = 1 · MAX
 
 
-**Day 19 — Most Popular Person**
+**[Day 19 – Most Friends](SQL_Files/Day19_Most_Friends.sql)**
 
 Determined user with the highest number of friendships.
 
@@ -237,7 +211,7 @@ Concepts:
 UNION ALL · Aggregation
 
 
-**Day 20 — Email Validation**
+**[Day 20 – Email Validation](SQL_Files/Day20_Email_Validation.sql)**
 
 Validated email formats using regular expressions.
 
@@ -245,7 +219,7 @@ Concepts:
 REGEXP · Pattern matching
 
 
-**Day 21 — Player Retention Analysis**
+**[Day 21 – Player Retention](SQL_Files/Day21_Player_Retention.sql)**
 
 Calculated the fraction of users returning the day after first activity.
 
