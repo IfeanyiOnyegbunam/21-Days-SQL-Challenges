@@ -59,7 +59,7 @@ Throughout the challenge, I used:
 ## 📘 Daily Problem Summaries
 
 
-**[Day 01 – Borrower Books] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day01_Borrower_Books.sql**
+**[Day 01 – Borrower Books] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day01_Borrower_Books.sql)**
 
 Used joins and aggregation to display borrowers and a comma-separated list of books borrowed.
 
@@ -75,7 +75,7 @@ Concepts:
 CASE · COUNT · GROUP BY
 
 
-**[Day 03 – Loan Repayment Flags] https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day03_Loan_Repayment.sql)**
+**[Day 03 – Loan Repayment Flags] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day03_Loan_Repayment.sql)**
 
 Created repayment and on-time payment indicators using aggregation and date logic.
 
@@ -83,7 +83,7 @@ Concepts:
 LEFT JOIN · SUM · CASE · MAX · Risk flags
 
 
-**[Day 04 – Text Filtering] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day04_Text_Filtering.sql**
+**[Day 04 – Text Filtering] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day04_Text_Filtering.sql)**
 
 Identified positive reviews while excluding misleading phrases.
 
@@ -91,7 +91,7 @@ Concepts:
 LIKE · NOT LIKE · LOWER · Text filtering
 
 
-**[Day 05 – Department Salary Analysis]https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day05_Department_Salary.sql**
+**[Day 05 – Department Salary Analysis] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day05_Department_Salary.sql)**
 
 Calculated department average salaries and filtered using HAVING.
 
@@ -99,7 +99,7 @@ Concepts:
 AVG · HAVING · JOIN · Aggregation
 
 
-**[Day 06 – Lowest Price by Rating]https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day06_Lowest_Price_Rating%20.sql**
+**[Day 06 – Lowest Price by Rating] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day06_Lowest_Price_Rating%20.sql)**
 
 Found lowest priced products only when rating ≥ 4 and returned 0 when none qualified.
 
@@ -107,7 +107,7 @@ Concepts:
 CASE inside MIN · COALESCE · LEFT JOIN
 
 
-**[Day 07 – Second Most Recent Order]https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day07_Second_Recent_Order.sql**
+**[Day 07 – Second Most Recent Order] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day07_Second_Recent_Order.sql)**
 
 Used window functions and CTEs to handle ranking logic per customer.
 
@@ -115,7 +115,7 @@ Concepts:
 ROW_NUMBER · COUNT OVER · CTE
 
 
-**[Day 08 – Daily Active Users]https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day08_Daily_Active_Users.sql**
+**[Day 08 – Daily Active Users] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day08_Daily_Active_Users.sql)**
 
 Calculated unique active users per day over a 30-day period.
 
@@ -123,7 +123,7 @@ Concepts:
 COUNT DISTINCT · Date filtering
 
 
-**[Day 09 – Confirmation Rate] https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day09_Confirmation_Rate.sql** 
+**[Day 09 – Confirmation Rate] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day09_Confirmation_Rate.sql)** 
 
 Computed confirmation percentages using conditional aggregation.
 
@@ -131,7 +131,7 @@ Concepts:
 CASE · AVG · COALESCE
 
 
-**[Day 10 – Immediate Delivery Percentage]https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day10_Immediate_Delivery.sql**
+**[Day 10 – Immediate Delivery Percentage] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day10_Immediate_Delivery.sql)**
 
 Analyzed customer behavior using subqueries and Boolean aggregation.
 
@@ -139,7 +139,7 @@ Concepts:
 Subquery · MIN · AVG(Boolean)
 
 
-**[Day 11 – Employees Without Managers]https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day11_Employee_Manager.sql**
+**[Day 11 – Employees Without Managers] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day11_Employee_Manager.sql)**
 
 Identified employees whose managers had left the company.
 
@@ -147,7 +147,7 @@ Concepts:
 NOT IN · Subqueries
 
 
-**[Day 12 – Managers With 5+ Reports]https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day12_Manager_Reports.sql**
+**[Day 12 – Managers With 5+ Reports] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day12_Manager_Reports.sql)**
 
 Used CTE + grouping to identify qualified managers.
 
@@ -155,7 +155,7 @@ Concepts:
 CTE · GROUP BY · JOIN
 
 
-**[Day 13 – First Year Product Sales]https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day13_First_Year_Sales.sql**
+**[Day 13 – First Year Product Sales] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day13_First_Year_Sales.sql)**
 
 Returned only sales from each product’s first year.
 
@@ -163,7 +163,7 @@ Concepts:
 MIN · JOIN on multiple columns
 
 
-**[Day 14 – Monthly Transactions] https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day14_Monthly_Transactions.sql**
+**[Day 14 – Monthly Transactions] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day14_Monthly_Transactions.sql)**
 
 Calculated transaction volume and approved metrics.
 
@@ -171,7 +171,7 @@ Concepts:
 Conditional aggregation · CASE · DATE_FORMAT
 
 
-**[Day 15 – Average Processing Time]https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day15_Process_Time.sql**
+**[Day 15 – Average Processing Time] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day15_Process_Time.sql)**
 
 Computed average processing time using timestamp differences.
 
@@ -179,7 +179,7 @@ Concepts:
 CTE · MAX/MIN · AVG
 
 
-**[Day 16 – Remove Duplicate Emails] https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day16_Remove_Duplicates.sql**
+**[Day 16 – Remove Duplicate Emails] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day16_Remove_Duplicates.sql)**
 
 Deleted duplicates while retaining smallest ID.
 
@@ -187,7 +187,7 @@ Concepts:
 GROUP BY · DELETE · CTE
 
 
-**[Day 17 – Bus Weight Limit] https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day17_Bus_Weight_Limit.sql**
+**[Day 17 – Bus Weight Limit] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day17_Bus_Weight_Limit.sql)**
 
 Identified the last person who could board without exceeding capacity.
 
@@ -195,7 +195,7 @@ Concepts:
 Running totals · Window functions
 
 
-**[Day 18 – Largest Unique Number] https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day18_Unique_Number.sql**
+**[Day 18 – Largest Unique Number] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day18_Unique_Number.sql)**
 
 Found the largest number appearing only once.
 
@@ -203,7 +203,7 @@ Concepts:
 HAVING COUNT = 1 · MAX
 
 
-**[Day 19 – Most Friends] https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day19_Most_Friends.sql**
+**[Day 19 – Most Friends] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day19_Most_Friends.sql)**
 
 Determined user with the highest number of friendships.
 
@@ -211,7 +211,7 @@ Concepts:
 UNION ALL · Aggregation
 
 
-**[Day 20 – Email Validation] https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day20_Email_Validation.sql**
+**[Day 20 – Email Validation] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day20_Email_Validation.sql)**
 
 Validated email formats using regular expressions.
 
@@ -219,12 +219,13 @@ Concepts:
 REGEXP · Pattern matching
 
 
-**[Day 21 – Player Retention] [https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day21_Player_Retention.sql]**
+**[Day 21 – Player Retention] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day21_Player_Retention.sql)**
 
 Calculated the fraction of users returning the day after first activity.
 
 Concepts:
 CTEs · Date arithmetic · Retention metrics
+
 
 
 
