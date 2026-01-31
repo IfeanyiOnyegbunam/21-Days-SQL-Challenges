@@ -59,7 +59,7 @@ Throughout the challenge, I used:
 ## 📘 Daily Problem Summaries
 
 
-**[Day 01 – Borrower Books] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day01_Borrower_Books.sql)**
+**[Day 01 – Borrower Books](https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day01_Borrower_Books.sql)**
 
 Used joins and aggregation to display borrowers and a comma-separated list of books borrowed.
 
@@ -67,7 +67,7 @@ Concepts:
 JOIN · GROUP_CONCAT · GROUP BY · ORDER BY
 
 
-**[Day 02 – Product Pricing] (https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day02_Product_Pricing.sql)**
+**[Day 02 – Product Pricing](https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day02_Product_Pricing.sql)**
 
 Categorized products into price ranges using CASE logic and counted distribution.
 
