@@ -59,7 +59,7 @@ Throughout the challenge, I used:
 ## 📘 Daily Problem Summaries
 
 
-**[Day 01 – Borrower Books](SQL_Files/Day01_Borrower_Books.sql)Analysis**
+**[Day 01 – Borrower Books](https://github.com/IfeanyiOnyegbunam/21-Days-SQL-Challenges/blob/main/SQL_Files/SQL_Files/Day01_Borrower_Books.sql)**
 
 Used joins and aggregation to display borrowers and a comma-separated list of books borrowed.
 
